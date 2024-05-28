@@ -1,0 +1,13 @@
+embed {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-control-prev, .carousel-control-next, .carousel-indicators {
+    filter: invert(100%);
+   }
+
+#index_header {
+    height: auto;
+    max-width: 50vw;
+}

@@ -1,0 +1,114 @@
+.header {
+    background-color: LightSkyBlue;
+}
+
+#canton {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+}
+
+#header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.test {
+    background-color: yellow;
+}
+
+.stripe {
+    height: 50px;
+    width: 800px;
+    position: relative;
+    z-index: -1;
+}
+
+.red {
+    background-color: #cf142b;
+}
+
+.blue {
+    background-color: #00237d;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+#horizontal {
+    width: 100%;
+    height: 40%;
+    top: 28%;
+    position: absolute;
+}
+
+#small-horizontal {
+    width: 100%;
+    height: 25%;
+    top: 35%;
+    position: absolute;
+    
+}
+
+#vertical {
+    width: 25%;
+    height: 100%;
+    left: 39%;
+    position: absolute;
+}
+
+#small-vertical {
+    width: 15%;
+    height: 100%;
+    left: 44%;
+    position: absolute;
+}
+
+.tl-br {
+    transform: skewY(30deg);
+}
+
+.bl-tr {
+    transform: skewY(330deg);
+}
+
+.big-diagonal {
+    width: 100%;
+    height: 45px;
+    top: 38.5%;
+    position: absolute;
+}
+
+.small-diagonal {
+    width: 50%;
+    height: 15px;
+}
+
+#tl {
+    top: 25%;
+    position: absolute;
+}
+
+#tr {
+    top: 15%;
+    right: 0%;
+    position: absolute;
+}
+
+#bl {
+    bottom: 16%;
+    position: absolute;
+}
+
+#br {
+    bottom: 25%;
+    right: 0%;
+    position: absolute;
+}
+
+
+.over {
+    z-index: 1;
+}
